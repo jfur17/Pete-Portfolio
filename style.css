@@ -13,13 +13,14 @@ h1,
 h2,
 h3 {
   font-family: "Playfair Display", Times, serif;
+  text-align: center;
 }
 
 article {
   padding: 50px 0;
 }
 
-article div {
+background {
   text-align: center;
   width: 100%;
 }
@@ -75,3 +76,47 @@ nav a {
 li {
   text-align: left;
 }
+
+header {
+  display:flex;
+  margin: auto;
+  width: 600px;
+  justify-content: space-around; 
+  align-items: center; 
+  
+}
+
+article h2 {
+  text-align: center;
+}
+
+.section {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+}
+
+.section img{
+  margin-left: 50px;
+}
+
+.intro {
+  text-align: center;
+  margin-left: 50px;
+}
+ntro p {
+  text-align: left;
+}
+
+.collection {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.portfolio-item {
+  flex: 1;
+  margin: 0 10px;
+}
+
+
